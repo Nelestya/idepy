@@ -12,3 +12,6 @@ created a default html file
 the parameter for extensions is in Data.py
 
 create a new file python in folder
+
+## AUTHOR
+Nelestya(Dlugosz Tristan)
