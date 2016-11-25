@@ -17,7 +17,7 @@ def newfile(x, n):
 
 def newfileManager():
     try:
-        if sys.argv[1] == "new":
+        if sys.argv[1] == "-n":
             try:
                 if Data.extension[sys.argv[2]]:
                     newfile(sys.argv[2], 3)
