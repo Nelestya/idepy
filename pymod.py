@@ -214,6 +214,13 @@ class modules:
         self.modules_available = []
         self.modules_unvailable = []
 
+    def pip(self):
+        """import pip, if you have not import that print an Error"""
+        try:
+            __import__("pip")
+        except ImportError:
+            print("you have not install pip")
+
     def Tkpresent():
         try:
             try:
@@ -264,3 +271,4 @@ if __name__ == "__main__":
     x = modules()
     x.module_verification()
     x.printn()
+    x.pip()
